@@ -159,7 +159,7 @@ export default function Home() {
             </p>
           ))}
           <Image 
-            ref={imageRef as any}
+            ref={imageRef}
             src="/assets/nigeria-apple.png" 
             alt="nigeria" 
             width={400} 
