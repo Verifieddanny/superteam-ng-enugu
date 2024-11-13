@@ -1,10 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import { RiMenu4Fill } from "react-icons/ri";
 
-interface ChildProps {
-    setVisibility: React.Dispatch<React.SetStateAction<boolean>>;
-  }
 function Navbar() {
   return (
     <nav className='bg-[#1313139d] hover:bg-[#131313] transition-all duration-300 backdrop-blur-sm text-[#f1f1f1] rounded-full  w-[90%]  mx-auto md:h-16 h-[2.5rem] flex px-4 justify-between items-center shadow-sm'>
