@@ -27,7 +27,6 @@ export default function Home() {
         end: "+=300%",
         pin: true,
         scrub: 2,
-        markers: true // Remove in production
       }
     });
 
